@@ -1,0 +1,2 @@
+term,estimate,std_error,t_statistic,p_value,n,r_squared,df,role_fixed_effects,baseline_role
+AI_tool_adoption,0.150722,0.032552,4.630205,0.0000036719241,24354,0.020740,24320,31,"Developer, full-stack"

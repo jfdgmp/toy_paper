@@ -145,3 +145,21 @@ the seminar Overleaf project as two folders in one project.
 - **The agent does the boring work** (EDA, draft, formatting); **you do the thinking** (question framing, validity, contribution).
 - **Citations and identification are where AI tools fail hardest.** Don't outsource them.
 - Git turns paper writing from a single ever-growing file into a sequence of reviewable, revertable changes.
+
+---
+
+## Reproduce the completed analysis
+
+The completed example uses a dependency-free Node.js script:
+
+```bash
+node analysis/analysis.js
+```
+
+It reads `data/results.csv` and regenerates `results_table.csv`,
+`descriptive_statistics.csv`, `analysis_summary.txt`, and both PDF figures in
+`paper/figures/`. The raw survey CSV remains excluded from Git.
+
+Compile the finished paper with `tectonic paper/main.tex` or the
+`pdflatex`/BibTeX sequence described above. The compiled output is committed as
+`paper/main.pdf` for convenient review.

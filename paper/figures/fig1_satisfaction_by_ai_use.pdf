@@ -1,0 +1,57 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 432] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 979 >>
+stream
+0.95 0.95 0.95 rg 0 0 612 432 re f
+0 0 0 rg
+BT /F1 16 Tf 80 390 Td (Mean job satisfaction by reported AI-tool adoption) Tj ET
+0 0 0 RG 1 w 75 75 m 75 350 l S
+0.75 0.75 0.75 RG 75 75 m 555 75 l S
+BT /F1 9 Tf 52 72 Td (0) Tj ET
+0.75 0.75 0.75 RG 75 129 m 555 129 l S
+BT /F1 9 Tf 52 126 Td (2) Tj ET
+0.75 0.75 0.75 RG 75 183 m 555 183 l S
+BT /F1 9 Tf 52 180 Td (4) Tj ET
+0.75 0.75 0.75 RG 75 237 m 555 237 l S
+BT /F1 9 Tf 52 234 Td (6) Tj ET
+0.75 0.75 0.75 RG 75 291 m 555 291 l S
+BT /F1 9 Tf 52 288 Td (8) Tj ET
+0.75 0.75 0.75 RG 75 345 m 555 345 l S
+BT /F1 9 Tf 52 342 Td (10) Tj ET
+0.35 0.45 0.75 rg 155 75 115 192.5584082156611 re f
+0 0 0 rg
+BT /F1 12 Tf 195 277.5584082156611 Td (7.13) Tj ET
+BT /F1 10 Tf 151 45 Td (AI tools not used) Tj ET
+BT /F1 9 Tf 183 29 Td (n = 4674) Tj ET
+0.20 0.55 0.35 rg 385 75 115 195.36722560975608 re f
+0 0 0 rg
+BT /F1 12 Tf 425 280.3672256097561 Td (7.24) Tj ET
+BT /F1 10 Tf 381 45 Td (AI tools used) Tj ET
+BT /F1 9 Tf 413 29 Td (n = 19680) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1341
+%%EOF

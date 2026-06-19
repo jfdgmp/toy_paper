@@ -1,0 +1,13 @@
+Survey dimensions: 49191 rows x 172 columns.
+Professional-developer respondents: 37467.
+Complete analysis sample: 24354.
+Experience: mean 13.60 years; median 11.0 years.
+OLS adoption coefficient: 0.151 (SE 0.033, t=4.63, p=0.000003672; R-squared=0.021).
+Role fixed effects: 31; omitted category: Developer, full-stack.
+AISelect responses among professional developers:
+  Yes, I use AI tools daily: 13191
+  NA: 11422
+  Yes, I use AI tools weekly: 4524
+  No, and I don't plan to: 3821
+  Yes, I use AI tools monthly or infrequently: 3319
+  No, but I plan to soon: 1190
