@@ -1,0 +1,92 @@
+% Toy paper for the AI for Research seminar.
+%
+% Illustrative only. This skeleton is meant to be filled in by an AI agent
+% working from the Stack Overflow Annual Developer Survey data.
+% See ../README.md for the workflow.
+
+\documentclass[11pt]{article}
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{authblk}
+
+\title{AI-tool adoption and self-reported job satisfaction among professional
+software developers: a descriptive analysis of the Stack Overflow Annual
+Developer Survey}
+
+\author[1]{Author One}
+\author[1]{Author Two}
+\affil[1]{Universidade Cat\'olica Portuguesa}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We use the Stack Overflow Annual Developer Survey to describe the
+relationship between professional developers' reported adoption of AI coding
+tools and their reported job satisfaction, controlling for years of
+professional experience and primary developer role. We document a small
+positive cross-sectional association. The analysis is descriptive: the
+survey is observational, selection into the survey is not random, and
+both AI-tool adoption and satisfaction are self-reported. We discuss the
+limits this design imposes on causal interpretation. This paper is a
+teaching artefact produced for a seminar on AI for research; it is not
+intended for publication.
+\end{abstract}
+
+\section{Introduction}
+% TODO (LLM): One paragraph framing why this question is interesting,
+% one paragraph acknowledging this is descriptive only, one paragraph on
+% what we contribute (a transparent worked example for teaching).
+
+\section{Data}
+% TODO (LLM): Describe the Stack Overflow Annual Developer Survey
+% (population, recruitment, year used, sample size after filtering).
+% Cite the data source and license. Describe the analysis sample.
+
+\section{Method}
+% TODO (LLM): State the regression specification (OLS, satisfaction on
+% AI-use indicator + years_pro + role fixed effects). Acknowledge that
+% this is a cross-sectional correlation, not an effect.
+
+\section{Results}
+% TODO (LLM): Describe Figure 1, Figure 2, and the coefficient on AI use
+% from the regression. Use the numbers from ../results_table.csv (do not
+% invent them).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\linewidth]{figures/fig1_satisfaction_by_ai_use.pdf}
+  \caption{Self-reported job satisfaction by reported AI-tool use, analysis
+  sample.}
+  \label{fig:sat-by-ai}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\linewidth]{figures/fig2_years_experience.pdf}
+  \caption{Distribution of years of professional coding experience in the
+  analysis sample.}
+  \label{fig:years}
+\end{figure}
+
+\section{Limitations}
+% TODO (LLM): Be honest. Selection into the survey, self-report on both
+% sides, no instrument for AI-tool adoption, omitted variables (team
+% culture, employer, ability), and cross-sectional design rule out causal
+% interpretation. Frame this as the headline limit, not a footnote.
+
+\section{Conclusion}
+% TODO (LLM): Two short paragraphs. The first restates what we found and
+% what we did not find. The second positions this paper as a teaching
+% artefact for a seminar on AI for research.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}

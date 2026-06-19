@@ -1,0 +1,24 @@
+# Downloaded source data (recreate with data/download.sh)
+data/results.csv
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+.obsidian/
+
+# Python/R transient files
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+
